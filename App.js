@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-nativ
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import Detalhes from "./pages/Detalhes"; // Importando a tela Detalhes
+import Detalhes from "./pages/Detalhes"; 
 
 const Stack = createStackNavigator();
 
